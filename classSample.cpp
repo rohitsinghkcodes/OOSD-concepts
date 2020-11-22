@@ -1,17 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Student{
+
+class Student
+{
     int rno;
     string name;
-    public:
+
+public:
     void details()
     {
-        cout<<"Enterr the roll no and name: ";
-        cin>>name>>rno;
+        cout << "Enter the roll no and name: ";
+        cin >> name >> rno;
     }
     void printdet()
     {
-        cout<<"name: "<<name<<endl<<"Roll no: "<<rno<<endl;
+        cout << "name: " << name << endl
+             << "Roll no: " << rno << endl;
     }
 };
 int main()
